@@ -1,0 +1,11 @@
+#texts > h1, #texts > p{
+    text-align: center;
+    color: #000;
+}
+
+#users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,28 @@
+#form{
+    background-color: #fff;
+    padding: 50px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+#form > label{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#form > input{
+    border: 2px solid blue;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+#alterar{
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}

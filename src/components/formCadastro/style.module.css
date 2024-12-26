@@ -1,0 +1,34 @@
+#formCadas{
+    background-color: #f6f6f6;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+#formCadas > label{
+    font-size: 20px;
+}
+
+#formCadas > input[type="text"], #formCadas > input[type="number"]{
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#formCadas > input::placeholder{
+    color: gray;
+    font-weight: bold;
+}
+
+#formCadas > button{
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+}
